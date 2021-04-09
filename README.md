@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Let's code!
 
-## Getting Started
+My boilerplate to code fast asap!
 
-First, run the development server:
+**By Marcelino Sandroni**
+
+## What we have here?
+
+* React
+* Next.js
+* Typescript
+* Jest
+* React Test Library
+* Styled-components with SSR
+* ESLint config
+* Prettier config
+* Hasky git hook on commit
+* lint-stage git hook
+* Storybook
+* Plop auto file generator
+* Dependabot updates
+* Git actions config test on PR
+* VScode editorconfig default settings
+* PWA SEO model
+* 100 Lighthouse score
+* Webpack 5 adoption
+* Axios
+* And much much more
+
+## TODO:
+* Strapi api integration
+* Next NODE api basic implementarion
+* New home wellcome design
+* Material-ui version
+
 
 ```bash
-npm run dev
+yarn create next-app -e https://github.com/marcelinosandroni/lets-code
 # or
-yarn dev
+npx create-next-app -e https://github.com/marcelinosandroni/lets-code
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Scripts
+* dev: start development server
+* build: compile app to production
+* start: start the production app
+* lint: run lint with 0 warning requirement
+* test: run all tests
+* test:watch": run and watch all tests
+* generate": create new component structure by name
+* storybook": start components library view
+* build-storybook": build static component library
