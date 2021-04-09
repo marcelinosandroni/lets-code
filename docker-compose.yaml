@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  app:
+    build: .
+    entrypoint: ./.docker/start-next.sh
+    container_name: next
+    ports:
+      - 80:3000
+    volumes:
+      - .:/home/node/app

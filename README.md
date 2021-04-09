@@ -4,14 +4,18 @@ My boilerplate to code fast asap!
 
 **By Marcelino Sandroni**
 
-## What we have here?
+## What we have here to learn?
 
 * React
 * Next.js
 * Typescript
+* GraphQL
+* Apollo
 * Jest
 * React Test Library
 * Styled-components with SSR
+* PostgreSQL
+* MongoDB
 * ESLint config
 * Prettier config
 * Hasky git hook on commit
@@ -25,7 +29,8 @@ My boilerplate to code fast asap!
 * 100 Lighthouse score
 * Webpack 5 adoption
 * Axios
-* And much much more
+* Docker
+* Strapi
 
 ## TODO:
 * Strapi api integration
